@@ -1,6 +1,64 @@
-Not implemented yet! 
+<!DOCTYPE html>
+<html lang="en">
 
-<br>
-<br>
+<head>
+    <title>Profile</title>
+	<link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+    <main>
+        <section class="profile-section">
+          <h1>My Profile</h1>
+    
+          <div class="profile-info">
+            <h2>Skills</h2>
+            <ul>
+              <li>Web Development</li>
+              <li>Programming (Python, JavaScript, etc.)</li>
+              <li>UI/UX Design</li>
+            </ul>
+    
+            <h2>Interests</h2>
+            <ul>
+              <li>Artificial Intelligence</li>
+              <li>Creative Writing</li>
+              <li>Outdoor Activities</li>
+            </ul>
+    
+            <h2>Career Goals</h2>
+            <p>
+              I am passionate about leveraging technology to solve real-world problems. My career goal is to contribute to innovative projects that combine my technical skills with my creative mindset. I aspire to work in a dynamic and collaborative environment where I can continuously learn and make a positive impact.
+            </p>
+          </div>
+        </section>
+    
+        <section class="contact-section">
+          <h2>Contact Me</h2>
+          <form action="/submit_contact_form" method="post">
+            <!-- Add necessary form fields, e.g., name, email, message -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <button type="submit">Send Message</button>
+          </form>
+        </section>
+      </main>
+
+</body>
+</html>
 
 <a href="./home.html"><< Back </a>
